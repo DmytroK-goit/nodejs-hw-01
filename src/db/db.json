@@ -1,1 +1,44 @@
-[]
+[
+  {
+    "id": 1,
+    "name": "John Doe",
+    "email": "john.doe@mail.com",
+    "phone": "+380660001122",
+    "job": "CEO"
+  },
+  {
+    "id": "1c1d3487-c5bf-42c9-9133-d5783fdcf974",
+    "name": "Brandy Ryan",
+    "phone": "206.731.5488 x751",
+    "email": "Felicita12@yahoo.com",
+    "job": "Principal Metrics Planner"
+  },
+  {
+    "id": "e1898cbd-f241-48fb-8bbb-d3dd75ee9324",
+    "name": "Wendy Shields",
+    "phone": "696-741-7666 x994",
+    "email": "Julie_Mraz82@gmail.com",
+    "job": "Customer Solutions Strategist"
+  },
+  {
+    "id": "f39cf8c5-5b95-47bf-bb75-bbf350c666f5",
+    "name": "Ramiro Cremin",
+    "phone": "210.287.5315 x471",
+    "email": "Elvis_Harvey0@hotmail.com",
+    "job": "Dynamic Markets Planner"
+  },
+  {
+    "id": "b3f424c4-9b2b-4430-b5aa-1429c6a85991",
+    "name": "Geneva Ruecker",
+    "phone": "408.947.5749 x7905",
+    "email": "Caterina.Reichert4@gmail.com",
+    "job": "Principal Program Producer"
+  },
+  {
+    "id": "81f368eb-e3dd-4b86-9327-3e9e11b7aa00",
+    "name": "Eddie Goodwin-Kutch",
+    "phone": "230.345.4160 x76802",
+    "email": "Josiane.Skiles17@yahoo.com",
+    "job": "Human Infrastructure Designer"
+  }
+]
