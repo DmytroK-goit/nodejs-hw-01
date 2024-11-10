@@ -1,13 +1,15 @@
-import * as fs from 'node:fs/promises';
-import { PATH_DB } from '../constants/contacts.js';
+import { readContacts } from '../utils/readContacts.js';
+import { writeContacts } from '../utils/writeContacts.js';
+
 export const removeLastContact = async () => {
-  const data = await fs.readFile(PATH_DB, { encoding: 'utf-8' });
-  const contacts = JSON.parse(data);
-  const removedContact = contacts.pop();
-  await fs.writeFile(PATH_DB, JSON.stringify(contacts, null, 2), {
-    encoding: 'utf-8',
-  });
-  return removedContact;
+  try {
+    const data = await readContacts();
+    data.pop();
+    await writeContacts(data);
+    console.log('Видалено 1 контакт');
+  } catch (error) {
+    console.log(console.error(error));
+  }
 };
 
 removeLastContact();

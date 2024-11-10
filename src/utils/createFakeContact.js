@@ -7,6 +7,3 @@ export const createFakeContact = () => ({
   email: faker.internet.email(),
   job: faker.person.jobTitle(),
 });
-export const contacts = faker.helpers.multiple(createFakeContact, {
-  count: 5,
-});
